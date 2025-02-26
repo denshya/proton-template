@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "name": "@denshya/proton-demo",
+  "name": "proton-template",
   "private": true,
   "main": "src/index.ts",
   "scripts": {
@@ -19,18 +19,7 @@
     "urlpattern-polyfill": "^10.0.0"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^8.16.0",
-    "@typescript-eslint/parser": "^8.16.0",
-    "eslint": "9.16.0",
-    "eslint-plugin-simple-import-sort": "^12.1.1",
-    "eslint-plugin-unused-imports": "^4.1.4",
-    "sass": "^1.82.0",
-    "type-fest": "^4.30.0",
-    "typescript": "^5.7.2",
     "vite": "^6.0.7",
     "vite-bundle-visualizer": "^1.2.1"
-  },
-  "engines": {
-    "bun": "1.1.45"
   }
 }
