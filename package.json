@@ -14,7 +14,7 @@
     "stats:network": "vite-bundle-visualizer -o ./stats/network.html -t network"
   },
   "dependencies": {
-    "@denshya/proton": "latest",
+    "@denshya/proton": "latest"
   },
   "devDependencies": {
     "vite": "latest",
