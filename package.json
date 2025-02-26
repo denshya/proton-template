@@ -14,12 +14,10 @@
     "stats:network": "vite-bundle-visualizer -o ./stats/network.html -t network"
   },
   "dependencies": {
-    "@denshya/flow": "^0.3.0",
-    "@denshya/proton": "^0.2.0",
-    "urlpattern-polyfill": "^10.0.0"
+    "@denshya/proton": "latest",
   },
   "devDependencies": {
-    "vite": "^6.0.7",
-    "vite-bundle-visualizer": "^1.2.1"
+    "vite": "latest",
+    "vite-bundle-visualizer": "latest"
   }
 }
