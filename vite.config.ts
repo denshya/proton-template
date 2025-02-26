@@ -9,16 +9,4 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  build: {
-    target: false,
-    sourcemap: true,
-    modulePreload: false
-  },
-  esbuild: {
-    keepNames: false,
-
-    supported: {
-      "top-level-await": true
-    },
-  },
 })
